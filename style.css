@@ -1,0 +1,95 @@
+body{
+    background: rgb(121,85,203);
+    background: linear-gradient(90deg, rgba(121,85,203,1) 0%, rgba(41,104,161,1) 47%, rgba(43,159,144,1) 100%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.row{
+    height: 100vh;
+}
+
+
+#tytulowa{
+    width: 100%; 
+    background: url("img/pobrany\ plik.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+}
+  
+.buttonPrezentacja{
+    font-size: 4vh;
+    padding: 15px;
+    background-color: orange;
+    border: solid 2px;
+    border-radius: 12px;
+    margin-top: 75vh;
+
+}
+.buttonPrezentacja:hover{
+    background-color: peru;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    background: rgb(121,85,203);
+    background: linear-gradient(90deg, rgba(121,85,203,1) 0%, rgba(41,104,161,1) 47%, rgba(43,159,144,1) 100%);
+
+
+}
+
+.cnt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30vh;
+
+}
+
+.aLink{
+    font-size: 40px;
+}
+
+.bLink{
+    text-align: center;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    font-size: 3.5vh;
+}
+
+.col-md-6{
+    padding: 50px;
+
+}
+
+h1{
+    font-size: 8vh;
+    color: white;
+    text-align: center;
+}
+
+.opis{
+    color: white;
+    font-size: 2.5vh;
+    text-align: justify;
+    padding-top: 4vh;
+}
+
+#dalej{
+    height: 10vh;
+}
