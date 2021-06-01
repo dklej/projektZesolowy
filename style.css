@@ -1,0 +1,148 @@
+body{
+    background: rgb(117,92,172);
+    background: linear-gradient(90deg, rgba(117,92,172,1) 0%, rgba(26,73,119,1) 0%, rgba(9,87,76,1) 100%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.row{
+    height: 100vh;
+}
+
+
+#tytulowa{
+    width: 100%; 
+    background: url("img/pobrany\ plik.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+}
+.graWstatki{
+    padding-top: 7%;
+    font-family: serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 120px;
+    color:#AB7700;
+}
+  
+.buttonPrezentacja{
+    font-size: 4vh;
+    padding: 15px;
+    background-color: #AB7700;
+    border: solid 2px;
+    border-radius: 12px;
+    margin-top: 40vh;
+
+}
+.buttonPrezentacja:hover{
+    background-color: peru;
+}
+
+.buttonSpisTresci{
+    min-height: 7%;
+    min-width: 28%;
+    
+    color: white;
+    background-color:#918a80;
+    font-size: 3vh;
+    border: solid 2px;
+    border-radius: 12px;
+    margin:2%;
+    margin-top: 50%;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover{
+    color: white;
+}
+
+.h1-4{
+    padding-top: 40%;
+    text-align: center;
+    margin: 20px;
+}
+
+
+.cnt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+    
+
+}
+
+.aLink{
+    font-size: 40px;
+}
+
+.bLink{
+    text-align: center;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    font-size: 3.5vh;
+}
+
+.col-md-6{
+    padding: 50px;
+
+}
+
+h1{
+    font-size: 8vh;
+    color: white;
+    text-align: left;
+    margin:50px;
+}
+
+.opis{
+    color: white;
+    font-size: 3vh;
+    text-align: justify;
+    padding-top: 3vh;
+    margin:50px;
+}
+
+#dalej{
+    height: 10vh;
+}
+
+.imgDPU{
+    height: 60%;
+    padding-left: 10vh;
+    padding-top: 2vh;
+
+}
+
+.imgDK{
+    height: 60%;
+    padding-top: 40px;
+    padding-left: 90px;
+}
+
+h2{color: white;
+    font-size: 4vh;
+    margin-left:50px;
+    margin-right: 50px;;
+}
+
+.zasady{
+    background-color: #1d4f5c;
+    margin: 0;
+}
+
+.rolka{
+ background-color: #0c9ec4;
+ margin-left: 300px;
+ margin-right: 300px;
+ margin-bottom: 40px;
+ padding-bottom: 40px;
+}
